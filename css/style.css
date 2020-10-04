@@ -117,13 +117,13 @@ header {
 }
 .logo {
   width: 65%;
-  display: flex;
   margin: 35px auto 0;
 }
 .logo img {
   display: block;
   width: 74px;
   line-height: 74px;
+  margin: 0 auto;
 }
 .logo-description {
   padding: 15px 0 0 20px;
