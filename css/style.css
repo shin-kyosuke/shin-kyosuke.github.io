@@ -123,10 +123,6 @@ header {
 .logo img {
   display: block;
   width: 75px;
-  transition: 1s;
-}
-.logo img:hover {
-  transform: rotate(360deg);
 }
 .logo-description {
   padding: 15px 0 0 20px;
