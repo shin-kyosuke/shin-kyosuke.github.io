@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="新が独学で勉強し作成したポートフォリオサイトです。HTML,CSS,jQueryを使用しています。是非ご覧下さい。" name="description">
+  <link rel="icon" href="img/kyosuke.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <title>Kyosuke shin</title>
+</head>
+<body>
+  <header>
+    <h3 class="header-name">Kyosuke Shin</h3>
+    <span class="material-icons" id="open">menu</span>
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>
+      <nav class="for-smartphones">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="for-pc">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="section1">
+      <div class="space"></div>
+      <div class="main-title">Welcome to my<br>portfolio</div>
+      <p>1996</p>
+    </section>
+    <section class="section2">
+      <h2 id="about">About</h2>
+      <div class="wrap">
+        <div class="logo">
+          <img src="img/kyosuke.png" alt ="ロゴ画像">
+          <div class="logo-description">こちらのロゴは私自身の似顔絵です。シンプルですが、自作しました。</div>
+        </div>
+        <div class="self-introduction">
+          <div class="profile">
+            <h3>Profile</h3>
+            <p class="name">新京介</p>
+            <p class="age">24歳</p>
+            <p class="employee">会社員</p>
+            <p>2020年6月からWEB制作の学習を始めました。</p>
+            <p>まだまだ知らない事もたくさんあり、日々学習に取り組んでいます。</p>
+            <p>WEB制作に関するお悩みなどがあればご相談ください。</p>
+            <p>少しでもお役に立てるように頑張りますので、一緒に問題解決をしていきましょう。
+            </p>
+          </div>
+          <div class="skill">
+            <h3 class="skill-title">Skill</h3>
+            <ul>
+              <li>
+                <img src="img/html-5.png" alt="HTML5のロゴ画像">
+                <p>HTML5</p>
+              </li>
+              <li>
+                <img src="img/css3.png" alt="CSS3のロゴ画像">
+                <p>CSS3</p>
+              </li>
+              <li>
+                <img src="img/jquery.png" alt="jQueryのロゴ画像">
+                <p>jQuery</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3"></section>
+    <section class="section4">
+      <h2 id="services">Services</h2>
+      <div class="wraper">
+        <div>
+          <img src="img/PC.png" alt="PC画像">
+          <h3><span>HPページ制作</span></h3>
+          <p>
+            WEBサイトのHPページ制作を承っております。誰に向けたHPページなのか、デザインはどのようにするか等、様々な情報を元に作成を行っていきます。お客様とのコミュニケーションを大切にし、満足いただけるサイトを制作致します。
+          </p>
+        </div>
+        <div>
+          <img src="img/code.png" alt="コーディング画像">
+          <h3><span>コーディング代行</span></h3>
+          <p>
+            サイトのデザインが決まっている場合のは、コーディングの代行も承っております。CSS、jQueryを用いてアニメーションの実装も可能です。
+          </p>
+        </div>
+        <div>
+          <img src="img/phone.svg" alt="スマートフォン画像">
+          <h3><span>スマホサイズ対応</span></h3>
+          <p>
+            WEBサイトのレスポンシブ対応を承ります。近年ではスマートフォンでの閲覧もかなり普及しているので、コーディングにおいても大事な要素だと思います。より快適に閲覧できるように制作に取り組みます。
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <h2 id="contact">Contact</h2>
+      <form class="formrun" action="https://form.run/api/v1/r/qddy8nyrdmnq81vrpcyc0muu" method="post">
+        <fieldset class="form-block">
+          <legend class="legend-title">
+            お名前<span>＊必須</span>
+            <div  class="error" data-formrun-show-if-error="お名前">お名前を入力してください。</div>
+          </legend>
+          <input name="お名前" type="text" class="input-text" data-formrun-required>
+        </fieldset>
+        <fieldset class="form-block">
+          <legend class="legend-title">ふりがな</legend>
+          <input name="ふりがな" type="text" class="input-text">
+        </fieldset>
+        <fieldset class="form-block">
+          <legend class="legend-title">
+            メールアドレス<span>＊必須</span>
+            <div  class="error" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください。</div>
+          </legend>
+          <input name="メールアドレス" type="text" class="input-text" data-formrun-type="email" data-formrun-required>
+        </fieldset>
+        <fieldset class="form-block">
+          <legend class="legend-title">
+            メールアドレス確認用<span>＊必須</span>
+            <div  class="error" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください。</div>
+          </legend>
+          <input name="メールアドレス確認用" type="text" class="input-text" data-formrun-type="email" data-formrun-required>
+        </fieldset>
+        <fieldset class="form-block">
+          <legend class="legend-title">
+            お問い合わせ内容<span>＊必須</span>
+            <div  class="error" data-formrun-show-if-error="お問い合わせ">お問い合わせを入力してください。</div>
+          </legend>
+          <textarea name="お問い合わせ" data-formrun-required></textarea>
+        </fieldset>
+        <button type="submit" class="send" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." data-formrun-default-text="送信">送信</button>
+      </form>
+      <div class="twitter">
+        <a href="https://twitter.com/B987wRXLrRltSrf" target="_blank"><img src="img/Twitter.png" style="width: 40px"></a>
+        <p>SNSでもお問い合わせ頂けます。</p>
+      </div>
+      <h3>〜どうぞお気軽にお問い合わせください〜</h3>
+    </section>
+  </main>
+  <footer>
+    <p class="copy"><small>&copy; 2020 Kyosuke.Shin</small></p>
+  </footer>
+  <a href="#" id="pointing" onclick="$('html,body').animate({ scrollTop: 0 }, 500); return false;">☝</a>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
